@@ -65,20 +65,16 @@
 
 @media (max-width: 600px) {
   .listItem {
-    display: grid;
-    grid-template-areas:
-      "toggle delete"
-      "text text";
-    grid-template-columns: fit-content fit-content;
-    grid-template-rows: fit-content fit-content;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .listItem button {
+    width: 22px;
   }
   .listItemText,
   .listItemTextSelected {
-    border-top: 1px solid var(--gray-350);
-    padding-top: 10px;
-
-    width: 100%;
     text-align: center;
+    flex: 1;
   }
 }
