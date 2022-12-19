@@ -50,7 +50,7 @@ The user can register one or several tasks, mark them as completed and delete th
 
 Technologies that I used to develop this api
 
-- [React Native](https://pt-br.reactjs.org/)
+- [React JS](https://pt-br.reactjs.org/)
 - [Vite JS](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
